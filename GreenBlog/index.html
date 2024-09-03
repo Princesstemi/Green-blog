@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBlog</title>
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <header>
+        <span class="brand">
+                <img src="./images/logo.png" alt="" width="50">
+                <b>
+                      GreenBlog
+                </b>
+        </span>
+
+        <nav>
+               <a href=""><img src="./images/home.png" alt="">Home</a>
+               <a href=""><img src="./images/about.png" alt="">About us</a>
+               <a href=""><img src="./images/settings.png" alt="">Settings</a>
+               <a href=""><img src="./images/register.png" alt="">Signup</a>
+               <a href=""><img src="./images/login.png" alt="">Login</a>
+               <a href=""><img src="./images/donate.png" alt="">Donate</a>
+               <a href=""><img src="./images/support.png" alt="">Support</a>
+        </nav>
+
+        <button class="menu-btn"></button>
+            
+    </header>
+    <main>
+            <section id="post-section">
+                    <h1>welcome to Green Blog world</h1>
+                    <p>...freedom of expression everywhere...</p>
+                    <button class="post-btn"></button>
+            </section>
+
+            <form class="post-form">
+                   <img src="./images/close.png" alt="" width="20" class="close-form">
+                    <input type="text" placeholder="username">
+                    <input type="text" placeholder="title of post">
+                    <textarea placeholder = "post body"></textarea>
+
+                  <div class="post-image-box">
+                     <img src="./images/default_image.png" alt="" class="image-preview" width="80">
+
+                      <span>
+                           <input type="file" id="uploaded_file">
+                           <label for="uploaded_file">Upload image</label>
+                      </span>
+                  </div>
+
+                  <button class="submit-post-btn">Post →</button>
+            </form>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+</html>
